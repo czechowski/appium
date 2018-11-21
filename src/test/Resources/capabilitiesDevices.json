@@ -1,0 +1,12 @@
+{
+  "BROWSER_NAME": "Android",
+  "VERSION": "7.1.2",
+  "deviceName": "Redmi",
+  "udid": "5b37c8d7d140",
+  "platformName": "Android",
+  "appPackage": "com.android.vending",
+  "appActivity": "com.android.vending.AssetBrowserActivity",
+  "autoGrantPermissions": true,
+  "newCommandTimeout": 900000,
+  "androidInstallTimeout": 900000
+}

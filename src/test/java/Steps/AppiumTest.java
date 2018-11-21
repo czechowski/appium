@@ -74,7 +74,7 @@ public class AppiumTest {
 
     }
 
-    @AfterMethod
+    @AfterMethod (groups = {"smoke","regression"})
     public void tearDown() {
         driver.quit();
     }

@@ -34,7 +34,7 @@ public class AppiumTest {
 
     PlayStoreHomePage playStoreHomePage;
 
-    @BeforeMethod
+    @BeforeMethod (groups = {"smoke","regression"})
     public void setUp(ITestContext context) throws MalformedURLException, FileNotFoundException {
         driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4729/wd/hub"), getCapabilities());
         wait = new WebDriverWait(driver, 30)
